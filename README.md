@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/loopstudios-landing-page-using-vanilla-javascript-and-tailwindcss-xXsyNudpN1)
+- Live Site URL: (https://yousefadel777.github.io/Loopstudios-landing-page/)
 
 ## My process
 

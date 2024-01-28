@@ -915,9 +915,9 @@ video {
   }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1400px){
   .container{
-    max-width: 1440px;
+    max-width: 1400px;
   }
 }
 
@@ -1143,10 +1143,6 @@ a:hover::after {
     min-height: 0px;
   }
 
-  .lg\:min-h-\[74\.5svh\]{
-    min-height: 74.5svh;
-  }
-
   .lg\:w-auto{
     width: auto;
   }
@@ -1232,5 +1228,11 @@ a:hover::after {
 
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1400px){
+  .\32xl\:min-h-\[74\.5svh\]{
+    min-height: 74.5svh;
   }
 }
