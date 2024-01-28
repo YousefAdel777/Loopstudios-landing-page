@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+    .container {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+    }
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+    @media (min-width: 1200px) {
+        .container {
+            width: 1145px;
+        }
+    }
+    .creation img {
+        width: 100%;
+    }
+    .creation::after {
+        background: linear-gradient(to top,hsla(0, 0%, 0%, 55%) 10%, hsla(0, 0%, 0%, 35%) 30%, transparent 70%);
+    }
+    a {
+        position: relative;
+    }
+    a::after {
+        position: absolute;
+        content: "";
+        bottom: -6px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        height: 3px;
+        width: 0;
+        transition: 300ms;
+    }
+    a:hover::after {
+        width: 70%
+    }
+}
+
+@layer base {
+    * {
+        @apply m-0 p-0 box-border;
+    }
+}
